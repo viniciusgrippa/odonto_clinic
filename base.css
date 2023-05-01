@@ -1,0 +1,137 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #668fe9;
+    padding: 10px 20px 0px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color:#f1f1f1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu ul a:hover {
+    text-decoration: none;
+    color:#ddd4d4;
+}
+
+.header {
+    background-color: rgb(213, 218, 218);
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color:  rgb(213, 218, 218);
+    min-height: 150px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 5px
+}
+
+h1 {
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    color: #376ee4;
+}
+
+.content p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.content img {
+    max-width: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container img {
+    max-width: 48%;
+}
+
+
+table tr:nth-child(even) td{
+    background-color: #ddd4d4;
+}
+
+thead {
+    background-color: black;
+    color: #f1f1f1;
+}
+
+td {
+    width: 150px;
+    text-align: center;
+}
+
+form{
+    box-sizing: border-box;
+}
+
+
+input, textarea {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+label {
+    width: 25%;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+button[type=button], button[type=submit], button[type=reset] {
+    background-color: #376ee4;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px 5px;
+    cursor: pointer;
+  }
